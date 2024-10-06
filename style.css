@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #E0E0E0; /* Light text */
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+    color: #BB86FC; /* Purple color for headings */
+}
+#container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #1E1E1E; /* Dark card background */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+input[type="text"] {
+    width: calc(100% - 22px); /* Full width minus padding */
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+    background-color: #2A2A2A; /* Input background */
+    color: #E0E0E0; /* Input text color */
+}
+button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #BB86FC; /* Button color */
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #9B59B6; /* Darker button on hover */
+}
+#response {
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #2A2A2A; /* Response background */
+}
