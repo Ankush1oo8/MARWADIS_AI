@@ -35,7 +35,7 @@ async function submitQuestion() {
        
    } catch (error) {
         console.error("Error:", error);
-        responseDiv.innerHTML = "Error fetching response."; // Show error message
+        responseDiv.innerHTML = "Netlify Server Down!!!."; // Show error message
    }
 }
 
